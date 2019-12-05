@@ -1,0 +1,9 @@
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\bin\Debug\DAL.dll
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\bin\Debug\DAL.pdb
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\bin\Debug\DTO.dll
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\bin\Debug\DTO.pdb
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\obj\Debug\DAL.dll
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DAL\obj\Debug\DAL.pdb
