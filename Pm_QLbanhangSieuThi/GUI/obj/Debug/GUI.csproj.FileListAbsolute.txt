@@ -16,3 +16,9 @@ D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\
 D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\bin\Debug\DAL.pdb
 D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.FormQLNV.resources
 D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.FormDN.resources
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.FormChucNang.resources
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.FormHangHoa.resources
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.FormThongKe.resources
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.FormQLNhaSX.resources
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.FormQLNhapHang.resources
+D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\GUI\obj\Debug\GUI.QLXuatHang.resources

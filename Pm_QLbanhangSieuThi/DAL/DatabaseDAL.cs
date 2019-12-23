@@ -11,7 +11,7 @@ namespace DAL
     {
         private static SqlCommand command = new SqlCommand();
         private static SqlConnection connection = new SqlConnection();
-        private static string chuoiConnection=@"Data Source=DESKTOP-243RGDN\SQLEXPRESS;Initial Catalog=QL_BanHangSieuThi;Integrated Security=True";
+        private static string chuoiConnection=@"Data Source=DESKTOP-243RGDN\SQLEXPRESS;Initial Catalog=QL_BanHangSieuThi_test1;Integrated Security=True";
         private static DataTable tb = new DataTable();
         private static SqlDataAdapter sqlAdap;
 

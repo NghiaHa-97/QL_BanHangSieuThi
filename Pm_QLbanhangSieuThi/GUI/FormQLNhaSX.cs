@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace GUI
 {
-    public partial class FormDN : Form
+    public partial class FormQLNhaSX : Form
     {
-        public FormDN()
+        public FormQLNhaSX()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            FormChucNang fr = new FormChucNang();
-            fr.Show();
-            this.Hide();
-
         }
     }
 }

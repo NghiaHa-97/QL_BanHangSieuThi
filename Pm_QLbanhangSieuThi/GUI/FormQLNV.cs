@@ -32,7 +32,7 @@ namespace GUI
             nv.tenNV = textBoxTenNV.Text;
             nv.diaChi = textBoxDiaChi.Text;
             nv.sDT = textBoxSDT.Text;
-            nv.ngaySinh = DateTime.Parse(textBoxNS.Text);
+            nv.ngaySinh = dateTimePickerNS.Value;
             nv.gT = textBoxGT.Text;
             nv.chucVu = textBoxChucvu.Text;
             nv.luongCB = int.Parse(textBoxLuongCB.Text);
@@ -55,7 +55,7 @@ namespace GUI
             nv.tenNV = textBoxTenNV.Text;
             nv.diaChi = textBoxDiaChi.Text;
             nv.sDT = textBoxSDT.Text;
-            nv.ngaySinh = DateTime.Parse(textBoxNS.Text);
+            nv.ngaySinh = dateTimePickerNS.Value;
             nv.gT = textBoxGT.Text;
             nv.chucVu = textBoxChucvu.Text;
             nv.luongCB = int.Parse(textBoxLuongCB.Text);
@@ -129,7 +129,7 @@ namespace GUI
             textBoxTenNV.Text= row.Cells[1].Value.ToString();
             textBoxDiaChi.Text = row.Cells[2].Value.ToString();
             textBoxSDT.Text = row.Cells[3].Value.ToString();
-            textBoxNS.Text = row.Cells[4].Value.ToString();
+            dateTimePickerNS.Value =  DateTime.Parse(row.Cells[4].Value.ToString());
             textBoxGT.Text = row.Cells[5].Value.ToString();
             textBoxChucvu.Text = row.Cells[6].Value.ToString();
             textBoxLuongCB.Text = row.Cells[7].Value.ToString();
