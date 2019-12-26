@@ -20,6 +20,5 @@ namespace DTO
         public int hSLuong { get; set; }
         public int thuong { get; set; }
         public int tongLuong { get; set; }
-        //public NhanVien(string maNV,)
     }
 }

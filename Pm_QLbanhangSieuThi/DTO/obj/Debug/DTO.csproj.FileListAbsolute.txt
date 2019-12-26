@@ -1,11 +1,8 @@
-D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DTO\bin\Debug\DTO.dll
-D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DTO\bin\Debug\DTO.pdb
-D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
-D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
-D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.dll
-D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.pdb
 E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\bin\Debug\DTO.dll
 E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\bin\Debug\DTO.pdb
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
 E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.dll
 E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.pdb
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
