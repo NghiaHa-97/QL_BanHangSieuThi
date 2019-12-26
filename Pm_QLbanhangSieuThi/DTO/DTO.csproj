@@ -43,13 +43,11 @@
   <ItemGroup>
     <Compile Include="ChiTietPhieuXuat.cs" />
     <Compile Include="Kho.cs" />
-    <Compile Include="NhanVien.cs" />
     <Compile Include="NhaSanXuat.cs" />
     <Compile Include="PhieuNhapKho.cs" />
     <Compile Include="PhieuXuatKho.cs" />
     <Compile Include="ChungLoai.cs" />
     <Compile Include="HangHoa.cs" />
-    <Compile Include="NhanVien.cs" />
     <Compile Include="NhaSX.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ChiTietPhieuNhap.cs" />
