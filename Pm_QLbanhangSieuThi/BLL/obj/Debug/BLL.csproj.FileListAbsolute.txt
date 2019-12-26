@@ -9,3 +9,14 @@ D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\
 D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.dll
 D:\Tài Liệu\Chuyen Ngành\Thiết kế và xây dựng phần mềm\Thiet Ke\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.pdb
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\bin\Debug\BLL.dll
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\bin\Debug\BLL.pdb
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\bin\Debug\DAL.dll
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\bin\Debug\DTO.dll
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\bin\Debug\DAL.pdb
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\bin\Debug\DTO.pdb
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.dll
+E:\Lap trinh\TK&XDPM\QL_BanHangSieuThi\Pm_QLbanhangSieuThi\BLL\obj\Debug\BLL.pdb
