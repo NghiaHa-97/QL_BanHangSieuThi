@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Interop.Excel">
+      <HintPath>C:\Users\Truong98\OneDrive\Máy tính\src\WinFormsExcelDemo\Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Microsoft.Office.Core">
+      <HintPath>C:\Users\Truong98\OneDrive\Máy tính\src\WinFormsExcelDemo\Interop.Microsoft.Office.Core.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +52,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WinFormsExcel">
+      <HintPath>C:\Users\Truong98\OneDrive\Máy tính\src\WinFormsExcelDemo\WinFormsExcel.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FormQLNV.cs">
@@ -58,6 +69,42 @@
     <Compile Include="FormDN.Designer.cs">
       <DependentUpon>FormDN.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_DetailNSX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DetailNSX.Designer.cs">
+      <DependentUpon>Form_DetailNSX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DsPhieuXuatDiaLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DsPhieuXuatDiaLog.Designer.cs">
+      <DependentUpon>Form_DsPhieuXuatDiaLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DsPhieuNhapDiaLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DsPhieuNhapDiaLog.Designer.cs">
+      <DependentUpon>Form_DsPhieuNhapDiaLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PhieuXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PhieuXuat.Designer.cs">
+      <DependentUpon>Form_PhieuXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PhieuNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PhieuNhap.Designer.cs">
+      <DependentUpon>Form_PhieuNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_NghiepVuKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_NghiepVuKho.Designer.cs">
+      <DependentUpon>Form_NghiepVuKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormQLNV.resx">
@@ -66,19 +113,38 @@
     <EmbeddedResource Include="FormDN.resx">
       <DependentUpon>FormDN.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_NghiepVuKho.resx">
+      <DependentUpon>Form_NghiepVuKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DetailNSX.resx">
+      <DependentUpon>Form_DetailNSX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DsPhieuXuatDiaLog.resx">
+      <DependentUpon>Form_DsPhieuXuatDiaLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DsPhieuNhapDiaLog.resx">
+      <DependentUpon>Form_DsPhieuNhapDiaLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PhieuXuat.resx">
+      <DependentUpon>Form_PhieuXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PhieuNhap.resx">
+      <DependentUpon>Form_PhieuNhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -97,6 +163,36 @@
       <Project>{ef3b3b36-3299-45f5-b18a-ccaa9b278b7f}</Project>
       <Name>DTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-View-Details-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Data-View-Details-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window-Enter-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookmark-delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookmark-delete-icon1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

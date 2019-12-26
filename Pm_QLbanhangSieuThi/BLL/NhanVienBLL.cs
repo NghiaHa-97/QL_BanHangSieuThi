@@ -14,25 +14,42 @@ namespace BLL
         NhanVienDAL nvDAl = new NhanVienDAL();
         public DataTable hienThiTatCaNhanVien()
         {
-            return nvDAl.hienThiTatCaNhanVien();
+            var data = nvDAl.hienThiTatCaNhanVien();
+            DatabaseDAL.CloseConnection();
+            return data;
         }
 
         public int themNhanVien(NhanVien nv)
         {
-            return nvDAl.themNhanVien(nv);
+            var data = nvDAl.themNhanVien(nv);
+            DatabaseDAL.CloseConnection();
+            return data;
         }
 
         public int suaNhanVien(NhanVien nv)
         {
-            return nvDAl.suaNhanVien(nv);
+            var data = nvDAl.suaNhanVien(nv);
+            DatabaseDAL.CloseConnection();
+            return data;
         }
         public int xoaNhanVien(string maNV)
         {
-            return nvDAl.xoaNhanVien(maNV);
+            var data = nvDAl.xoaNhanVien(maNV);
+            DatabaseDAL.CloseConnection();
+            return data;
         }
         public DataTable timKiemNhanVien(string maNV)
         {
-            return nvDAl.timKiemNhanVien(maNV);
+            var data = nvDAl.timKiemNhanVien(maNV);
+            DatabaseDAL.CloseConnection();
+            return data;
+        }
+
+        public DataTable GetInfoNhanVien(string maNV)
+        {
+            var data = nvDAl.GetInfoNhanVien(maNV);
+            DatabaseDAL.CloseConnection();
+            return data;
         }
     }
 }
