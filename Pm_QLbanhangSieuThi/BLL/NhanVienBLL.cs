@@ -16,7 +16,10 @@ namespace BLL
         {
             return nvDAl.hienThiTatCaNhanVien();
         }
-
+        public bool KiemTraTonTai(string ma)
+        {
+            return nvDAl.KiemTraTonTai(ma);
+        }
         public int themNhanVien(NhanVien nv)
         {
             return nvDAl.themNhanVien(nv);

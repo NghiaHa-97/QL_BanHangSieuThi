@@ -12,32 +12,44 @@ namespace DAL
         public DataTable hienThiTatCaNhanVien()
         {
             string query = "SELECT *FROM dbo.NhanVien";
-            return DatabaseDAL.readData(query);
+            return DatabaseDAL.readDataToTable(query);
         }
+        
+        public bool KiemTraTonTai(string ma)
+        {
+            string query = " SELECT * FROM dbo.NhanVien WHERE MaNV = @ma";
+            if(DatabaseDAL.readDataToTable(query,ma).Rows.Count == 0)
+            {
+                return false;
+            }
+            return true;
+        }
+
         public int themNhanVien(NhanVien nv)
         {
-            string query = string.Format("INSERT dbo.NhanVien(MaNV, TenNV, DiaChi, SDT, NgaySinh,GT, ChucVu, Luongcb, PhuCap, HSLuong, Thuong) VALUES  ( N'{0}' ,  N'{1}' ,  N'{2}' , N'{3}' ,  '{4}' ,N'{5}' ,  N'{6}' ,  {7} , {8} ,  {9} , {10} )",nv.maNV,nv.tenNV,nv.diaChi,nv.sDT,nv.ngaySinh,nv.gT,nv.chucVu,nv.luongCB,nv.phuCap,nv.hSLuong,nv.thuong);
-
-            return DatabaseDAL.executeNonQuery(query);
+            //string query = string.Format("INSERT dbo.NhanVien(MaNV, TenNV, DiaChi, SDT, NgaySinh,GT, ChucVu, Luongcb, PhuCap, HSLuong, Thuong) VALUES  ( N'{0}' ,  N'{1}' ,  N'{2}' , N'{3}' ,  '{4}' ,N'{5}' ,  N'{6}' ,  {7} , {8} ,  {9} , {10} )",nv.maNV,nv.tenNV,nv.diaChi,nv.sDT,nv.ngaySinh,nv.gT,nv.chucVu,nv.luongCB,nv.phuCap,nv.hSLuong,nv.thuong);
+            string query = "INSERT dbo.NhanVien(MaNV, TenNV, DiaChi, SDT, NgaySinh,GT, ChucVu, Luongcb, PhuCap, HSLuong, Thuong) VALUES  ( @manv ,  @tennv ,  @dc , @sdt , @ns  , @gt ,  @cv ,  @lcb , @pc ,  @hsl , @thuong )";
+                    
+            return DatabaseDAL.executeNonQuery(query, nv.maNV, nv.tenNV, nv.diaChi, nv.sDT, nv.ngaySinh, nv.gT, nv.chucVu, nv.luongCB, nv.phuCap, nv.hSLuong, nv.thuong);
         }
 
         public int suaNhanVien(NhanVien nv)
         {
-            string query = string.Format("UPDATE dbo.NhanVien SET TenNV=N'{0}',DiaChi=N'{1}',SDT='{2}',NgaySinh='{3}',GT=N'{4}',ChucVu=N'{5}',Luongcb={6},PhuCap={7},HSLuong={8},Thuong={9} WHERE MaNV=N'{10}'", nv.tenNV, nv.diaChi, nv.sDT, nv.ngaySinh, nv.gT, nv.chucVu, nv.luongCB, nv.phuCap, nv.hSLuong, nv.thuong, nv.maNV);
-            return DatabaseDAL.executeNonQuery(query);
+            string query = "UPDATE dbo.NhanVien SET TenNV=@ten,DiaChi=@dc,SDT=@sdt,NgaySinh=@ns,GT=@gt,ChucVu=@chv,Luongcb=@lucb,PhuCap=@pc,HSLuong=@hsl,Thuong=@thug WHERE MaNV=@manv";
+            return DatabaseDAL.executeNonQuery(query, nv.tenNV, nv.diaChi, nv.sDT, nv.ngaySinh, nv.gT, nv.chucVu, nv.luongCB, nv.phuCap, nv.hSLuong, nv.thuong, nv.maNV);
 
         }
         public int xoaNhanVien(string maNV)
         {
-            string query = string.Format("UPDATE dbo.HoaDon SET MaNV=NULL WHERE MaNV='{0}'        DELETE FROM dbo.NhanVien WHERE MaNV = '{0}'", maNV);
-            return DatabaseDAL.executeNonQuery(query);
+            string query = "UPDATE dbo.HoaDon SET MaNV=NULL WHERE MaNV=@manv        DELETE FROM dbo.NhanVien WHERE MaNV = @manv";
+            return DatabaseDAL.executeNonQuery(query, maNV);
 
         }
 
         public DataTable timKiemNhanVien(string maNV)
         {
-            string query = string.Format("SELECT * FROM dbo.NhanVien WHERE MaNV='{0}'", maNV);
-            return DatabaseDAL.readData(query);
+            string query = "SELECT * FROM dbo.NhanVien WHERE MaNV=@manv";
+            return DatabaseDAL.readDataToTable(query, maNV);
         }
     }
 }

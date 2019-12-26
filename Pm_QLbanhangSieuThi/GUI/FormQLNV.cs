@@ -22,8 +22,32 @@ namespace GUI
         NhanVienBLL nvBLL = new NhanVienBLL();
         private void loadData()
         {
-            if(dataGridViewDSNV.DataSource != null) ((DataTable)dataGridViewDSNV.DataSource).Rows.Clear();
+            if(dataGridViewDSNV.DataSource != null)
+            {
+                ((DataTable)dataGridViewDSNV.DataSource).Rows.Clear();
+                
+
+            }
+
+
             dataGridViewDSNV.DataSource = nvBLL.hienThiTatCaNhanVien();
+
+
+            
+
+
+
+            //DataTable dt = nvBLL.hienThiTatCaNhanVien();
+            //var list = dt.AsEnumerable().Select(x =>
+            //                                        new {a=x.Field<string>("tennv"),
+            //                                             b=x.Field<string>("MANV")
+            //                                            }
+            //                                    )
+            //                            .ToList();
+            //dataGridViewDSNV.DataSource = list;
+
+
+
         }
         private void themNhanVien()
         {
@@ -40,12 +64,18 @@ namespace GUI
             nv.hSLuong = int.Parse(textBoxHSLuong.Text);
             nv.thuong = int.Parse(textBoxThuong.Text);
             //nv.tongLuong = int.Parse(textBoxTong.Text);
-
-            if (nvBLL.themNhanVien(nv) != 0)
+            if (nvBLL.KiemTraTonTai(nv.maNV) == false)
             {
-                MessageBox.Show("Them Thanh Cong");
-                
-                loadData();
+                if (nvBLL.themNhanVien(nv) != 0)
+                {
+                    MessageBox.Show("Them Thanh Cong");
+
+                    loadData();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nhân viên đã tồn tại");
             }
         }
         private void suaNhanVien()
@@ -63,23 +93,36 @@ namespace GUI
             nv.hSLuong = int.Parse(textBoxHSLuong.Text);
             nv.thuong = int.Parse(textBoxThuong.Text);
             //nv.tongLuong = int.Parse(textBoxTong.Text);
-
-            if (nvBLL.suaNhanVien(nv) != 0)
+            if (nvBLL.KiemTraTonTai(nv.maNV) == true) 
             {
-                MessageBox.Show("Sua Thanh Cong");
+                  if (nvBLL.suaNhanVien(nv) != 0)
+                  {
+                        MessageBox.Show("Sua Thanh Cong");
 
-                loadData();
+                        loadData();
+                  }
+             }
+            else
+            {
+                MessageBox.Show("Nhân viên Không tồn tại");
             }
         }
         private void xoaNhanVien()
         {
             string manv = textBoxMaNV.Text;
             if (manv == null) return;
-            if (nvBLL.xoaNhanVien(manv) != 0)
+            if (nvBLL.KiemTraTonTai(manv) == true)
             {
-                
-                MessageBox.Show("Xoa Thanh Cong");
-                loadData();
+                if (nvBLL.xoaNhanVien(manv) != 0)
+                {
+
+                    MessageBox.Show("Xoa Thanh Cong");
+                    loadData();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nhân viên không tồn tại");
             }
         }
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -142,7 +185,7 @@ namespace GUI
 
         private void buttonThem_Click(object sender, EventArgs e)
         {
-            dataGridViewDSNV.DataSource = null;
+            
             themNhanVien();
 
 
@@ -181,6 +224,16 @@ namespace GUI
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             xoaNhanVien();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            loadData();
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            loadData();
         }
     }
 }

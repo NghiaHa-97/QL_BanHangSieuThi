@@ -73,6 +73,7 @@
             this.textBoxSDT = new System.Windows.Forms.TextBox();
             this.textBoxTenNV = new System.Windows.Forms.TextBox();
             this.textBoxDiaChi = new System.Windows.Forms.TextBox();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDSNV)).BeginInit();
@@ -98,7 +99,8 @@
             this.toolStripSeparator5,
             this.toolStripLabel1,
             this.toolStripTextBoxMaNV,
-            this.toolStripButton5});
+            this.toolStripButton5,
+            this.toolStripButton3});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(1371, 34);
@@ -508,6 +510,19 @@
             this.textBoxDiaChi.Size = new System.Drawing.Size(246, 30);
             this.textBoxDiaChi.TabIndex = 35;
             // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.AutoSize = false;
+            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Margin = new System.Windows.Forms.Padding(150, 1, 0, 2);
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(100, 31);
+            this.toolStripButton3.Text = "Làm Mới";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
             // FormQLNV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -579,6 +594,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dateTimePickerNS;
+        private System.Windows.Forms.ToolStripButton toolStripButton3;
     }
 }
 
