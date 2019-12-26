@@ -19,7 +19,9 @@ namespace GUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormQLNV fr = new FormQLNV();
+
+            FormChucNang fr = new FormChucNang();
+            fr.Show();
             this.Hide();
             fr.ShowDialog();
             this.Show();

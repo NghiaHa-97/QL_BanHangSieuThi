@@ -18,7 +18,10 @@ namespace BLL
             DatabaseDAL.CloseConnection();
             return data;
         }
-
+        public bool KiemTraTonTai(string ma)
+        {
+            return nvDAl.KiemTraTonTai(ma);
+        }
         public int themNhanVien(NhanVien nv)
         {
             var data = nvDAl.themNhanVien(nv);

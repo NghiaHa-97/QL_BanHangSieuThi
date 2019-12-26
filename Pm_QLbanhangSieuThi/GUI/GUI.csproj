@@ -57,6 +57,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormChucNang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChucNang.Designer.cs">
+      <DependentUpon>FormChucNang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChungLoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChungLoai.Designer.cs">
+      <DependentUpon>FormChungLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQLNhaSX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLNhaSX.Designer.cs">
+      <DependentUpon>FormQLNhaSX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHangHoa.Designer.cs">
+      <DependentUpon>FormHangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormQLNhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormQLNhapHang.Designer.cs">
+      <DependentUpon>FormQLNhapHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormQLNV.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,8 +135,35 @@
     <Compile Include="Form_NghiepVuKho.Designer.cs">
       <DependentUpon>Form_NghiepVuKho.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThongKe.Designer.cs">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLXuatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLXuatHang.Designer.cs">
+      <DependentUpon>QLXuatHang.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormChucNang.resx">
+      <DependentUpon>FormChucNang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChungLoai.resx">
+      <DependentUpon>FormChungLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLNhaSX.resx">
+      <DependentUpon>FormQLNhaSX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHangHoa.resx">
+      <DependentUpon>FormHangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormQLNhapHang.resx">
+      <DependentUpon>FormQLNhapHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormQLNV.resx">
       <DependentUpon>FormQLNV.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,10 +188,20 @@
     <EmbeddedResource Include="Form_PhieuNhap.resx">
       <DependentUpon>Form_PhieuNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormThongKe.resx">
+      <DependentUpon>FormThongKe.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QLXuatHang.resx">
+      <DependentUpon>QLXuatHang.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

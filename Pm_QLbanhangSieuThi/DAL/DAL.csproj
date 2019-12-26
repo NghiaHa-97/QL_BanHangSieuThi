@@ -50,6 +50,11 @@
     <Compile Include="NhanVienDAL.cs" />
     <Compile Include="NhaSanXuatDAL.cs" />
     <Compile Include="PhieuXuatDAL.cs" />
+    <Compile Include="ChungLoaiDAL.cs" />
+    <Compile Include="DatabaseDAL.cs" />
+    <Compile Include="HangHoaDAL.cs" />
+    <Compile Include="NhanVienDAL.cs" />
+    <Compile Include="NhaSXDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PhieuNhapDAL.cs" />
   </ItemGroup>

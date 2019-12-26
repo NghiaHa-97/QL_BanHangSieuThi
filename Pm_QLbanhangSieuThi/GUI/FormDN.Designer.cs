@@ -52,7 +52,7 @@
             this.button1.Location = new System.Drawing.Point(24, 59);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(73, 187);
+            this.button1.Size = new System.Drawing.Size(235, 287);
             this.button1.TabIndex = 0;
             this.button1.Text = "Xem thông tin sản phẩm trong của hàng";
             this.button1.UseVisualStyleBackColor = true;
@@ -60,14 +60,13 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.panel1);
-            this.groupBox1.Location = new System.Drawing.Point(145, 45);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(308, 69);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(279, 201);
+            this.groupBox1.Size = new System.Drawing.Size(463, 309);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Tài kHoản và Mật Khẩu";
+            this.groupBox1.Text = "Tài khoản và Mật Khẩu";
             // 
             // panel1
             // 
@@ -81,10 +80,9 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(2, 15);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(3, 26);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(275, 184);
+            this.panel1.Size = new System.Drawing.Size(457, 280);
             this.panel1.TabIndex = 0;
             // 
             // button2
@@ -92,7 +90,7 @@
             this.button2.Location = new System.Drawing.Point(167, 131);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 25);
+            this.button2.Size = new System.Drawing.Size(169, 39);
             this.button2.TabIndex = 6;
             this.button2.Text = "Đăng Nhập";
             this.button2.UseVisualStyleBackColor = true;
@@ -103,7 +101,7 @@
             this.textBox2.Location = new System.Drawing.Point(107, 55);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 20);
+            this.textBox2.Size = new System.Drawing.Size(258, 30);
             this.textBox2.TabIndex = 5;
             // 
             // textBox1
@@ -111,7 +109,7 @@
             this.textBox1.Location = new System.Drawing.Point(107, 21);
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 20);
+            this.textBox1.Size = new System.Drawing.Size(258, 30);
             this.textBox1.TabIndex = 4;
             // 
             // comboBox1
@@ -120,7 +118,7 @@
             this.comboBox1.Location = new System.Drawing.Point(107, 93);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(135, 21);
+            this.comboBox1.Size = new System.Drawing.Size(258, 33);
             this.comboBox1.TabIndex = 3;
             // 
             // label3
@@ -129,7 +127,7 @@
             this.label3.Location = new System.Drawing.Point(29, 93);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.Size = new System.Drawing.Size(85, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Chức vụ";
             // 
@@ -139,7 +137,7 @@
             this.label2.Location = new System.Drawing.Point(29, 57);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(97, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mật Khẩu";
             // 
@@ -149,14 +147,14 @@
             this.label1.Location = new System.Drawing.Point(29, 21);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(103, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tài Khoản";
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(475, 260);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(713, 400);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(50, 25);
             this.button3.TabIndex = 2;
